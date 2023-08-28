@@ -50,3 +50,99 @@ h1 {
   color: #e5e7eb;
   font-size: 18px;
  }
+
+ .signup {
+  background: #3882f6;
+  color:beige;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  border-color: #1f2937;
+  transition-duration: 0.4s;
+  height: 50px;
+  width: 200px;
+  
+ }
+
+ .signup:hover {
+  background-color:darkslategrey;
+  color: white;
+ }
+
+ .carousel {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;  
+}
+
+.empty-element { 
+  
+  border: 8px solid;
+  border-color:  #3882f6;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+}
+.testimonial {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-style: light italic;
+  font-size: 36px;
+  text-align: center;
+}
+.testimonial h5 {
+  text-align: end;
+}
+.carousel-text {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;  
+  text-align: center;
+}
+.element-text {
+  width: 200px;
+  color: grey;
+  font-size: 18px;
+}
+
+.cta {
+  display: flex;
+  background-color:#3882f6;
+  height: 100px;
+  margin: 8%;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: 900;
+  text-align: left;
+  color: #f9faf8;
+}
+
+.cta p {
+  color: #e5e7eb;
+  justify-self: left;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#cta-button {
+  width: 200px;
+  height: 75px;
+  font-size: 26px;
+  align-self: center;
+  justify-self: right;
+}
+
+footer { 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #1f2937;
+ height: 72px;
+ text-align: center;
+ color: #e5e7eb;
+ font-size: 26px;
+ bottom: 0;
+}

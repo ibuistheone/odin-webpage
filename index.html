@@ -4,46 +4,57 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ZIARK</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <div class="header">
             <div class="navbar">
-                <h3>ziark-logo</h3>
+            <nav> 
                 <ul>
+                    <h2>ziark-logo</h2>
                     <li><a href="#"> link one</a></li> 
                     <li><a href="#">link two</a></li>
                     <li><a href="#">link three</a></li>
                 </ul>
+            </nav>
             </div>
             
             <div class="hero">
-                <h1>ZIARK, website heading</h1>
-                <p>this website has some susbtext that goes here that goes under the main title.
-                    its smaller and the color is lower contrast</p>
-                    <img class="logo" src="/images/ziark-logo.jpeg" alt="Ziark logo">
-                <button class="signup">
-                    signup
-                </button>
+                <div class="herocontent">
+                    <h1>ZIARK,<br> website heading</h1>
+                    <p id="herotext">this website has some susbtext that goes here that goes under the main title.
+                        its smaller and the color is lower contrast</p>
+                    <button class="signup">signup</button>
+                    </div>
+                <img class="logo" src="./images/ziark-logo-tp.png" alt="Ziark logo">
             </div>
         </div>
-
+        
+        <h2>some random info</h2>        
         <div class="carousel">
-
-            <div class="element">
-                <p id="invisible">invisible text</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="empty-element">
+                <!-- <p id="invisible">invisible text</p> -->
+            </div>
+            
+            <div class="empty-element">
+                <!-- <p id="invisible">invisible text</p> -->
             </div>
 
-            <div class="element">
-                <p id="invisible">invisible text</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="empty-element">
+                <!--                 <p id="invisible">invisible text</p -->  
+                </div>
+                
+                <div class="empty-element">
+                <!--                 <p id="invisible">invisible text</p> --> 
             </div>
 
-            <div class="element">
-                <p id="invisible">invisible text</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </div>
+        </div>
+        <div class="carousel-text">
+            <p class="element-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p class="element-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p class="element-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p class="element-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
 
         <div class="testimonial">
@@ -52,11 +63,11 @@
         </div>
 
         <div class="cta">
-            <h4>Call to action for newsletter </h4>
+            Call to action, for newsletter!
             <p>sign up to our newsletter and give us your email to reach you.</p>
-            <button class="signup">sign up</button>
+            <div class="signup"><button class="signup" id="cta-button">sign up!</button></div>
         </div>
-
+        
     </body>
 
     <footer>
