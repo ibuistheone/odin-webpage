@@ -4,23 +4,38 @@ body {
   font-family:Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  padding:0;
+  margin:0;
 }
 
 .header {
     background-color: #1f2937;
     background-size: cover;
     background-position: center;
+    padding-left: 90px; 
+    padding-right: 90px;
 }
 
 nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   color: #f9faf8;
-  padding: 40px 10% auto;
+  align-items: center;
+  padding: 20px 0px 20px 100px;
 
 }
 
+.nav-logo {
+  width: 84px;
+  height: 84px;
+  margin-right: auto;
+}
+
+.nav-link {
+  display: flex;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px; 
+  gap: 16px;
+}
 .logo {
   height: 50%;
   width: 100%;
@@ -29,11 +44,6 @@ nav {
 .hero {
   display: flex;
   flex: 1;
-}
-
-nav, ul, li{
-    list-style: none;
-    display: inline-block;
 }
 
 a {
@@ -70,10 +80,15 @@ h1 {
  }
 
  .carousel {
+   text-align: center;
+  }
+
+  .element { 
   display: flex;
   gap: 32px;
   justify-content: center;
   align-items: center;  
+  padding: 90px auto;
 }
 
 .empty-element { 
@@ -109,11 +124,16 @@ h1 {
 
 .cta {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color:#3882f6;
   height: 100px;
   margin: 8%;
   padding: 16px;
   border-radius: 8px;
+}
+
+.cta-content { 
   font-size: 28px;
   font-weight: 900;
   text-align: left;
